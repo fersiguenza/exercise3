@@ -9,5 +9,8 @@ public class ExampleClassTest {
     public void doNothing() {
         assertEquals("Doing Nothing", ExampleClass.doNothing());
     }
-
+    @Test
+    public void pruebaBoolean(){
+        assertEquals(true, ExampleClass.pruebaBoolean());
+    }
 }

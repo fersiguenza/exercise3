@@ -6,4 +6,7 @@ public class ExampleClass {
         return "Doing Nothing";
     }
 
+    public static Boolean pruebaBoolean(){
+        return true;
+    }
 }
